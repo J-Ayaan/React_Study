@@ -22,7 +22,7 @@ function App() {
         let copy1 = [...postTitle];
         copy1 = copy1.sort();
         postChange(copy1);
-      }}>가나다정렬</button>
+      }}>안녕</button>
 
       <button onClick={ ()=> {
         let copy = [...postTitle];
