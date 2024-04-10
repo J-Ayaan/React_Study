@@ -1,5 +1,5 @@
 import React from 'react';
-import '/Users/jungjunkyeong/Project/SOFIT/gpttest/src/style.css';
+import '/Users/jungjunkyeong/Desktop/React_Study/gpttest/src/style.css';
 
 const GroupManagementPage = () => {
   return (

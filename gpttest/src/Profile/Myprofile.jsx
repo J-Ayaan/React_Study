@@ -1,9 +1,10 @@
 // MyProfile.js
+
 import React from 'react';
 import MemberInformation from './MemberInformation';
-import SignupForm from './SignupForm';
-import LoginForm from './LoginForm';
-import '/Users/jungjunkyeong/Project/SOFIT/gpttest/src/style.css';
+import SignupForm from './SignupForm'; // Import the SignUpForm component
+import LoginForm from './LoginForm'; // Import the LoginForm component
+import '/Users/jungjunkyeong/Desktop/React_Study/gpttest/src/style.css';
 
 const MyProfile = ({ isLoggedIn, user, onLogin, onLogout }) => {
   return (
@@ -17,9 +18,9 @@ const MyProfile = ({ isLoggedIn, user, onLogin, onLogout }) => {
       ) : (
         <>
           <h2>Sign Up</h2>
-          <SignupForm />
+          <SignupForm onLogin={onLogin} /> {/* Pass onLogin function to SignUpForm */}
           <h2>Login</h2>
-          <LoginForm onLogin={onLogin} />
+          <LoginForm onLogin={onLogin} /> {/* Pass onLogin function to LoginForm */}
         </>
       )}
     </div>

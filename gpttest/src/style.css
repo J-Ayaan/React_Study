@@ -2,7 +2,7 @@
     padding: 20px;
 }
 
-.bulletin-board-page-container {
+.univ-board-page-container {
   padding: 20px;
 }
 
@@ -115,11 +115,19 @@
     grid-gap: 20px;
   }
   
-  .grid-item {
+  .grid-item-left {
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 8px;
+    margin-left: 100px;
   }  
+
+  .grid-item-right {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-right: 100px;
+  } 
 
 /* ToDoList.css */
 .todo-list {
@@ -155,4 +163,40 @@
     text-decoration: line-through;
     color: #888;
   }
-  
+
+  .calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+/* style.css */
+.bulletin-board {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.bulletin-board h2 {
+  margin-bottom: 20px;
+}
+
+.bulletin-post {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.bulletin-post h3 {
+  margin-bottom: 10px;
+}
+
+.bulletin-post p {
+  margin-bottom: 5px;
+}
+
+.bulletin-post button {
+  margin-right: 10px;
+}

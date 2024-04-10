@@ -1,11 +1,11 @@
 import React from 'react';
-import '/Users/jungjunkyeong/Project/SOFIT/gpttest/src/style.css';
+import '/Users/jungjunkyeong/Desktop/React_Study/gpttest/src/style.css';
+import BulletinBoard from './BulletinBoard'; // Import the BulletinBoard component
 
 const UnivBoardPage = () => {
   return (
-    <div className='bulletin-board-page-container'>
-      <h1>Univ Board Page</h1>
-      {/* Add bulletin board component here */}
+    <div className='univ-board-page-container'>
+      <BulletinBoard /> {/* Include the BulletinBoard component here */}
     </div>
   );
 };
