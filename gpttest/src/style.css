@@ -1,0 +1,158 @@
+.dash-board-page-container {
+    padding: 20px;
+}
+
+.bulletin-board-page-container {
+  padding: 20px;
+}
+
+.group-management-page-container {
+  padding: 20px;
+}
+
+.login-page-container {
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+    .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+
+    .nav-links li {
+    display: inline;
+    margin-right: 15px;
+    }
+
+    .nav-links li:last-child {
+    margin-right: 0;
+    }
+
+    .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    }
+
+    .nav-links li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+    }
+
+    .registration-page-container {
+    padding: 20px;
+    }
+
+/* MyProfile.css */
+
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-header h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .profile-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-form input[type="text"],
+  .profile-form input[type="email"],
+  .profile-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .profile-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .profile-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-bottom: 10px;
+  }
+
+/* Dashboard.css */
+.dashboard {
+    padding: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+  }  
+
+/* ToDoList.css */
+.todo-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .todo-list h2 {
+    margin-top: 0;
+  }
+  
+  .todo-list button {
+    margin-bottom: 10px;
+  }
+  
+  .todo-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    margin-bottom: 5px;
+  }
+  
+  .todo-list input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-list .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
